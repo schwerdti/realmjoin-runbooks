@@ -1,0 +1,14 @@
+{
+    "permissions": [
+        {
+            "resource": "Microsoft Graph",
+            "scope": "User.Read",
+            "type": "Delegated"
+        },
+        {
+            "resource": "Microsoft Graph",
+            "scope": "Directory.Read.All",
+            "type": "Application"
+        }
+    ]
+}
